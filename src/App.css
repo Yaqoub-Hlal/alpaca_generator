@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: #2B3A55  ;
+}
+ul {
+  list-style: none;
+}
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+.App .header {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+h1,h2,h3,h4,h5,p{
+  color: white;
+}
+.App .content {
+  background-color: #EEE;
+  display: flex;
+  gap: 20px;
+  width: 830px;
+  height: 530px;
+  padding: 10px;
+  border-radius: 10px;
+}

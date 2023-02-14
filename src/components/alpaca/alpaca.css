@@ -1,0 +1,54 @@
+.alpaca  {
+    max-height: 450px;
+    max-width: 450px;
+
+}
+.alpaca .img{
+    position: relative;
+    overflow: hidden;
+}
+
+.alpaca img{
+    max-width: 100%;
+    
+}
+.neck,
+.mouth,
+.leg,
+.hair,
+.eyes,
+.hair,
+.accessorize,
+.background,
+.nose{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.ears{
+    position: inherit;
+}
+
+.alpaca .buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.alpaca .buttons button {
+    background-color: transparent;
+    padding: 8px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: #2B3A55;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: none;
+    outline: none;
+    border-width: 1px;
+}
+.alpaca .buttons button:hover {
+    background-color: #2B3A55;
+    color: white;
+}

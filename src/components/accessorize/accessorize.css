@@ -1,0 +1,32 @@
+.accessorizes {
+    flex-basis: 200px;
+}
+.accessorize-header h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 15px 0 0;
+    color: #2B3A55;
+
+}
+
+.accessorize-content ul {
+    padding-top: 15px;
+
+}
+.accessorize-content ul li {
+    padding: 8px 12px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 10px;
+    border: solid 1px #2B3A55;
+    width: fit-content;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.accessorize-content ul li.active,
+.accessorize-content ul li:hover {
+    background-color: #2B3A55;
+    color: white;
+}
